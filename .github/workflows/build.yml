@@ -37,4 +37,4 @@ jobs:
         with:
           name: ${{matrix.build_type}}
           path: |
-            ${{github.workspace}}/build/${{matrix.build_type}}/among-us-replay-mod.dll
+            ${{github.workspace}}/build/${{matrix.build_type}}/*
