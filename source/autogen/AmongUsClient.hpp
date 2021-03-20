@@ -44,4 +44,4 @@ struct AmongUsClient : InnerNet::InnerNetClient {
         return get_class()->statics()->Instance;
     }
 };
-CHECK_TYPE(AmongUsClient, 0x98);
+CHECK_TYPE(AmongUsClient, 0x94);
