@@ -30,7 +30,7 @@ jobs:
       - name: Build mod
         working-directory: ${{github.workspace}}/build
         shell: bash
-        run: cmake --build . --config ${{matrix.build_type}} --target among-us-replay-mod
+        run: cmake --build . --config ${{matrix.build_type}}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
