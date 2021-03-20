@@ -68,7 +68,7 @@ struct GameData : InnerNet::InnerNetObject {
             case game_version::v2020_11_4s:  return Class<GameData>::find("BOMCDPPPECM");
             case game_version::v2020_11_17s: return Class<GameData>::find("FLIHHNFFPAO");
             case game_version::v2020_12_9s:  return Class<GameData>::find("EGLJNOMOGNP");
-            case game_version::v2020_12_9s:  return Class<GameData>::find("GameData");
+            case game_version::v2021_3_5s:  return Class<GameData>::find("GameData");
         }
         return nullptr;
     }
