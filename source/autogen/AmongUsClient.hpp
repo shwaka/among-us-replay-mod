@@ -9,7 +9,7 @@
 // FMLLKEACGIO in 2020.12.9s
 // AmongUsClient in 2021.3.5s
 struct AmongUsClient : InnerNet::InnerNetClient {
-    std::int32_t AutoOpenStore; // [marker]
+    // std::int32_t AutoOpenStore; // [marker]
     std::int32_t GameMode;
     struct System_String_o* OnlineScene;
     struct System_String_o* MainMenuScene;
