@@ -9,6 +9,7 @@ namespace InnerNet {
 // DBDDAJAICFN in 2020.11.4s
 // FMJPJKCNIKM in 2020.11.17s
 // KHNHJFFECBP in 2020.12.9s
+// InnerNetClient in 2021.3.5s
 struct InnerNetClient : UnityEngine::MonoBehaviour {
     // InnerNetClient.IFLBIJFJPMK in 2020.9.22
     // PJBHKAHJEMG.KDKPEGOCIJA in 2020.10.8i
@@ -16,6 +17,7 @@ struct InnerNetClient : UnityEngine::MonoBehaviour {
     // DBDDAJAICFN.DKEKFCCGGEO in 2020.11.4s
     // FMJPJKCNIKM.ONHEJJJIKDI in 2020.11.17s
     // KHNHJFFECBP.KGEKNMMAKKN in 2020.12.9s
+    // InnerNetClient.CGJDIIGHLGC in 2021.3.5s
     enum class GameStates : std::int32_t {
         NotJoined = 0, // [marker]
         Joined = 1,
@@ -58,6 +60,7 @@ struct InnerNetClient : UnityEngine::MonoBehaviour {
             case game_version::v2020_11_4s:  return Class<InnerNetClient>::find("DBDDAJAICFN");
             case game_version::v2020_11_17s: return Class<InnerNetClient>::find("FMJPJKCNIKM");
             case game_version::v2020_12_9s:  return Class<InnerNetClient>::find("KHNHJFFECBP");
+            case game_version::v2021_3_5s:   return Class<InnerNetClient>::find("InnerNet", "InnerNetClient");
         }
         return nullptr;
     }
@@ -79,6 +82,7 @@ const char* get_method_name<&InnerNet::InnerNetClient::Update>() {
         case game_version::v2020_11_4s:  return "Update";
         case game_version::v2020_11_17s: return "Update";
         case game_version::v2020_12_9s:  return "Update";
+        case game_version::v2021_3_5s:   return "Update";
     }
     return nullptr;
 }

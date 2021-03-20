@@ -8,6 +8,7 @@
 // PECPIEDFOHP in 2020.11.4s
 // AOKAHIJINGJ in 2020.11.17s
 // LJFDDJHBOGF in 2020.12.9s
+// GOODOHMJKLN in 2021.3.5s
 enum class SystemTypes : std::uint8_t {
     Hallway = 0, // [marker]
     Storage = 1,
